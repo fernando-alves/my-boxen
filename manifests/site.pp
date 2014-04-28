@@ -74,6 +74,29 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
 
+  include onepassword
+  include dropbox
+  include chrome
+  include sublime_text_2
+
+  include vlc
+  include vagrant
+  include virtualbox
+  include quicksilver
+
+  include istatmenus4
+  #include utorrent
+  include steam
+  include screenhero
+  include gitx
+
+  include iterm2::stable
+  include iterm2::colors::solarized_dark
+  include iterm2::colors::solarized_light
+
+  include spotify
+  include evernote
+
   # common, useful packages
   package {
     [
