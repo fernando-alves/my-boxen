@@ -61,6 +61,12 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github 'onepassword', '1.1.0', :repo => 'fernando-alves/puppet-onepassword'
+
+github 'wget'
+github 'java'
+github 'maven',       '1.0.6', :repo => 'steinim/puppet-maven'
+github 'intellij'
+
 github 'dropbox'
 github 'chrome'       
 github 'sublime_text_2'
@@ -77,3 +83,6 @@ github 'gitx'
 github 'iterm2'
 github 'spotify'
 github 'evernote'
+
+github 'sysctl'
+github 'postgresql'

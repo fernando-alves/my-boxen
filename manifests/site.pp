@@ -57,6 +57,8 @@ node default {
   include git
   include hub
   include nginx
+  #postgresql dependency
+  include sysctl
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -74,6 +76,9 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
 
+  #include java
+  include intellij
+
   include onepassword
   include dropbox
   include chrome
@@ -85,7 +90,6 @@ node default {
   include quicksilver
 
   include istatmenus4
-  #include utorrent
   include steam
   include screenhero
   include gitx
@@ -94,8 +98,15 @@ node default {
   include iterm2::colors::solarized_dark
   include iterm2::colors::solarized_light
 
-  include spotify
   include evernote
+  
+  #include spotify
+  #include utorrent
+
+  include postgresql
+
+  include wget
+  include maven
 
   # common, useful packages
   package {
