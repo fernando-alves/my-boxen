@@ -203,11 +203,6 @@ GITHUBTARBALL
   specs:
     module-data (0.0.3)
 
-GITHUBTARBALL
-  remote: steinim/puppet-maven
-  specs:
-    maven (1.0.6)
-
 DEPENDENCIES
   boxen (= 3.6.0)
   chrome (>= 0)
@@ -226,7 +221,6 @@ DEPENDENCIES
   istatmenus4 (>= 0)
   iterm2 (>= 0)
   java (>= 0)
-  maven (= 1.0.6)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)

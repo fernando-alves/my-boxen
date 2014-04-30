@@ -76,7 +76,7 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
 
-  #include java
+  include java
   include intellij
 
   include onepassword
@@ -106,7 +106,7 @@ node default {
   include postgresql
 
   include wget
-  include maven
+  #include maven
 
   # common, useful packages
   package {

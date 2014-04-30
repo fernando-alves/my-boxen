@@ -64,7 +64,7 @@ github 'onepassword', '1.1.0', :repo => 'fernando-alves/puppet-onepassword'
 
 github 'wget'
 github 'java'
-github 'maven',       '1.0.6', :repo => 'steinim/puppet-maven'
+#github 'maven',       '1.0.6', :repo => 'steinim/puppet-maven'
 github 'intellij'
 
 github 'dropbox'
